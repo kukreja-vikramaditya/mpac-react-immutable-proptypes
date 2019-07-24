@@ -1,6 +1,12 @@
-# react-immutable-proptypes
+This project is forked from https://github.com/kayneb/react-immutable-proptypes/commit/ea13532a05295a1d61a1b42b8d8aec6593908a17 and published on npm registry as `@kukreja-vlk/react-immutable-proptypes`
 
-[![npm package](https://img.shields.io/npm/v/react-immutable-proptypes.svg?style=flat)](https://www.npmjs.org/package/react-immutable-proptypes) [![Code Climate](https://codeclimate.com/github/HurricaneJames/react-immutable-proptypes/badges/gpa.svg)](https://codeclimate.com/github/HurricaneJames/react-immutable-proptypes) [![Test Coverage](https://codeclimate.com/github/HurricaneJames/react-immutable-proptypes/badges/coverage.svg)](https://codeclimate.com/github/HurricaneJames/react-immutable-proptypes)
+The following is a modification of the original README by James Burnett. You may check the original project [here](https://github.com/HurricaneJames/react-immutable-proptypes).
+
+---
+
+# @kukreja-vlk/react-immutable-proptypes
+
+[![npm package](https://img.shields.io/npm/v/@kukreja-vlk/react-immutable-proptypes.svg?style=flat)](https://www.npmjs.org/package/@kukreja-vlk/react-immutable-proptypes)
 
 PropType validators that work with Immutable.js.
 
@@ -11,7 +17,7 @@ I got tired of seeing `React.PropTypes.instanceOf(Immutable.List)` or `React.Pro
 Usage is simple, they work with and like any `React.PropType.*` validator.
 
 ```js
-var ImmutablePropTypes = require('react-immutable-proptypes');
+var ImmutablePropTypes = require('@kukreja-vlk/react-immutable-proptypes');
 var MyReactComponent = React.createClass({
     // ...
     propTypes: {
@@ -25,7 +31,7 @@ var MyReactComponent = React.createClass({
 });
 ```
 
-Since version 0.1.7 there are convenience helpers for "primitive" Immutable.js objects.
+There are convenience helpers for "primitive" Immutable.js objects.
 
 ```js
 propTypes: {
@@ -40,9 +46,9 @@ propTypes: {
 
 ## Installation
 
-Installing via [npmjs](https://www.npmjs.com/package/react-immutable-proptypes)
+Installing via [npmjs](https://www.npmjs.com/package/@kukreja-vlk/react-immutable-proptypes)
 ```bash
-npm install --save react-immutable-proptypes
+npm install --save @kukreja-vlk/react-immutable-proptypes
 ```
 
 

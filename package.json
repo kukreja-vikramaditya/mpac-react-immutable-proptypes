@@ -1,6 +1,6 @@
 {
-  "name": "react-immutable-proptypes",
-  "version": "2.1.0",
+  "name": "@kukreja-vlk/react-immutable-proptypes",
+  "version": "1.0.0",
   "description": "PropType validators that work with Immutable.js.",
   "main": "dist/ImmutablePropTypes.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HurricaneJames/react-immutable-proptypes"
+    "url": "https://bitbucket.org/kukreja-vikramaditya/react-immutable-proptypes"
   },
   "keywords": [
     "react",
@@ -26,12 +26,12 @@
   "bugs": {
     "url": "https://github.com/HurricaneJames/react-immutable-proptypes/issues"
   },
-  "homepage": "https://github.com/HurricaneJames/react-immutable-proptypes",
+  "homepage": "https://bitbucket.org/kukreja-vikramaditya/react-immutable-proptypes/src",
   "peerDependencies": {
     "immutable": ">=3.6.2"
   },
   "devDependencies": {
-    "babel": "^4.6.6",
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^3.1.1",
     "eslint": "^0.21.0",
     "eslint-plugin-react": "^2.2.0",
